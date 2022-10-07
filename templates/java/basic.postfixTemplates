@@ -1,0 +1,4 @@
+## Java Basic ##
+
+.svo : String.valueOf(expr)
+	ANY  →  java.lang.String.valueOf($expr$)$END$
