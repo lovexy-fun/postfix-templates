@@ -8,5 +8,4 @@
     <artifactId>postfix-templates</artifactId>
     <version>0.0.1</version>
 
-    <packaging>jar</packaging>
 </project>
