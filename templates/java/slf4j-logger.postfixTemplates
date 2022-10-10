@@ -1,0 +1,20 @@
+## Slf4j Logger ##
+
+.getLogger : LoggerFactory.getLogger(expr)
+    CLASS  →  org.slf4j.LoggerFactory.getLogger($expr$.class)$END$
+    STRING_LITERAL  →  org.slf4j.LoggerFactory.getLogger($expr$)$END$
+
+.logt : logger.trace(expr)
+    ANY  → logger.trace($expr$$END$);
+
+.logd : logger.debug(expr)
+    ANY  →  logger.debug($expr$$END$);
+
+.logi : logger.info(expr)
+    ANY  →  logger.info($expr$$END$);
+
+.logw : logger.warn(expr)
+    ANY  →  logger.warn($expr$$END$);
+
+.loge : logger.error(expr)
+    ANY  →  logger.error($expr$$END$);
